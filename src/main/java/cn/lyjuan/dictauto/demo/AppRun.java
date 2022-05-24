@@ -1,6 +1,6 @@
 package cn.lyjuan.dictauto.demo;
 
-import com.github.chad2li.dictauto.base.aop.DictAopHandler;
+import io.github.chad2li.dictauto.base.aop.DictAopHandler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

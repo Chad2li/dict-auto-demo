@@ -1,6 +1,6 @@
 package cn.lyjuan.dictauto.demo.dto;
 
-import com.github.chad2li.dictauto.base.dto.DictItemDto;
+import io.github.chad2li.dictauto.base.dto.DictItemDto;
 import lombok.Data;
 
 /**

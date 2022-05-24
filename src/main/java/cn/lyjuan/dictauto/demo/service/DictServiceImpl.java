@@ -1,8 +1,8 @@
 package cn.lyjuan.dictauto.demo.service;
 
 import cn.lyjuan.dictauto.demo.dto.DictItemDemoDto;
-import com.github.chad2li.dictauto.base.dto.DictItemDto;
-import com.github.chad2li.dictauto.base.service.IDictService;
+import io.github.chad2li.dictauto.base.dto.DictItemDto;
+import io.github.chad2li.dictauto.base.service.IDictService;
 import org.springframework.stereotype.Service;
 
 /**

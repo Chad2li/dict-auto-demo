@@ -1,6 +1,6 @@
 package cn.lyjuan.dictauto.demo.vo;
 
-import com.github.chad2li.dictauto.base.annotation.DictId;
+import io.github.chad2li.dictauto.base.annotation.DictId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
