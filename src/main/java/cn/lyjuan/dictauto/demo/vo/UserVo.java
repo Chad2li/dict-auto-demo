@@ -14,6 +14,9 @@ public class UserVo {
     private int id;
     @DictId
     private Long genderDictId;
+    /**
+     * 不需要编译时自动增加的字典属性
+     */
     private DictItemDto<Long> genderDictItem;
     @DictId(type = "LEVEL")
     private Long levelDictId;
