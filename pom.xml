@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>cn.lyjuan</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0.1</version>
     <artifactId>dict-auto-demo</artifactId>
     <modelVersion>4.0.0</modelVersion>
 
@@ -46,14 +46,14 @@
         <dependency>
             <groupId>io.github.chad2li</groupId>
             <artifactId>dict-auto</artifactId>
-            <version>1.2.0</version>
+            <version>2.0.1</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.projectlombok</groupId>-->
-<!--            <artifactId>lombok</artifactId>-->
-<!--            <version>1.18.22</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
