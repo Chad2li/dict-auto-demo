@@ -1,6 +1,7 @@
 package cn.lyjuan.dictauto.demo.controller;
 
 import cn.lyjuan.base.http.vo.res.BaseRes;
+import cn.lyjuan.dictauto.demo.vo.AddressVo;
 import cn.lyjuan.dictauto.demo.vo.UserVo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -49,9 +50,13 @@ public class UserController {
         UserVo user = new UserVo();
         user.setId(1);
         user.setName("ZhangSan");
-        user.setAge(2);
+        user.setAge(2L);
         user.setLevelDictId(3L);
         user.setGenderDictId(4L);
+        user.setA(5L);
+        AddressVo address = new AddressVo();
+        address.setCityDictId(1L);
+        user.setAddress(address);
         return user;
     }
 }
