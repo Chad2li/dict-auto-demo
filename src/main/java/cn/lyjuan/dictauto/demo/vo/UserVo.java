@@ -1,7 +1,7 @@
 package cn.lyjuan.dictauto.demo.vo;
 
+import cn.lyjuan.dictauto.demo.dto.DictItemDemoDto;
 import io.github.chad2li.dictauto.base.annotation.DictId;
-import io.github.chad2li.dictauto.base.dto.DictItemDto;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -15,25 +15,28 @@ import java.io.Serializable;
 public class UserVo implements Serializable {
     public static final long serialVersionUID = 1L;
     private int id;
-    @DictId
+    @DictId(type = "GENDER")
     private Long genderDictId;
     /**
      * 不需要编译时自动增加的字典属性
      */
-    private DictItemDto<Long> genderDictItem;
+    private DictItemDemoDto genderDictItem;
     @DictId(type = "LEVEL")
     private Long levelDictId;
+    private DictItemDemoDto levelDictItem;
     private String name;
     /**
      * 没有 DictId 后缀
      */
-    @DictId
+    @DictId(type = "AGE")
     private Long age;
+    private DictItemDemoDto ageDictItem;
     /**
      * 一个字符字段
      */
-    @DictId
+    @DictId(type = "A", targetField = "aDict")
     private Long a;
+    private DictItemDemoDto aDict;
     private AddressVo address;
 
     @DictId(type = "ABC")

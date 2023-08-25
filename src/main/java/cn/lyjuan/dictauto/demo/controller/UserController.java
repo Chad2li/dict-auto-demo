@@ -3,6 +3,7 @@ package cn.lyjuan.dictauto.demo.controller;
 import cn.lyjuan.base.http.vo.res.BaseRes;
 import cn.lyjuan.dictauto.demo.vo.AddressVo;
 import cn.lyjuan.dictauto.demo.vo.UserVo;
+import io.github.chad2li.dictauto.base.annotation.DictResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +25,7 @@ import java.util.Map;
 @RequestMapping
 public class UserController {
 
+    @DictResult
     @GetMapping("user/{id}")
     public BaseRes<UserVo> user(@PathVariable Long id) {
         return BaseRes.succ(user());
