@@ -1,9 +1,7 @@
 package cn.lyjuan.dictauto.demo.vo;
 
 import io.github.chad2li.dictauto.base.annotation.DictId;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * 地址
@@ -13,6 +11,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 public class AddressVo {
-    @DictId
+    @DictId(type = "CITY")
     private Long cityDictId;
 }

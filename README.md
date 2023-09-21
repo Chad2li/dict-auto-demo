@@ -1,3 +1,5 @@
+**本项目于2023-09-21废弃**    
+**请转用新项目 `auto-inject-all`: [Gitee](https://gitee.com/CodeinChad/auto-inject-all)|[Github](https://github.com/Chad2li/auto-inject-all)**
 
 ### dict-auto项目演示demo
 - 源码: 
